@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ "$(basename $(pwd)" != *"fet"* ]]; then
+if [[ "$(basename $(pwd))" != *"fet"* ]]; then
     echo "This script needs to be ran from the same dir as the .fet files." && exit 1
 fi
 
