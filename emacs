@@ -8,7 +8,7 @@
 		("\"\"\\|one\\|two\\|three\\|four\\|five\\|six\\|seven\\|eight\\|nine\\|ten\\|eleven\\|twelve\\|thirteen\\|fourteen\\|fifteen\\|sixteen\\|seventeen\\|eighteen\\|nineteen\\|twenty\\|thirty\\|fourty\\|fifty\\|sixty\\|seventy\\|eighty\\|ninety\\|hundred\\|thousand\\|million\\|billion\\|trillion" . font-lock-string-face)))
 
 (define-derived-mode fetlang-mode fundamental-mode "fetlang"
-  "major mode for editing mymath language code."
+  "major mode for syntax highlighting of Fetlang."
   (setq font-lock-defaults '(fetlang-highlights)))
 
 (add-to-list 'auto-mode-alist '("\\.fet\\'" . fetlang-mode))
